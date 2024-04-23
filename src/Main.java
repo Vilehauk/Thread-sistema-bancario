@@ -36,7 +36,8 @@ public class Main {
         clie4.start();
         clie5.start();
         caller.start(); // para chamar o resultado final
-        
+
+        // o que está abaixo nunca é verdadeira, apesar da classe cliente ter um this.interrupt() assim que estiver sem dinheiro
         boolean alldead = false;
         while(!alldead) {
             alldead = (clie1.interrupted());
