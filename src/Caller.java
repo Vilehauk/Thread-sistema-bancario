@@ -1,3 +1,6 @@
+// essa classe serve apenas para poder chamar tudo o banco ao final da execução, eu tentei detectar quando todos os clientes usassem todo o dinheiro
+// mas por algum motivo não funcionava, e eu percebi q ao invés de se intercalar as transações, cada thread estava fazendo todas as transações e então passava para a outra
+
 public class Caller extends Thread{
     private Conta test1;
     private Conta test2;
