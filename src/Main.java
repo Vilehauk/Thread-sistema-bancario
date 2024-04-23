@@ -35,8 +35,7 @@ public class Main {
         clie3.start();
         clie4.start();
         clie5.start();
-        caller.start();
-        
+        caller.start(); // para chamar o resultado final
         
         boolean alldead = false;
         while(!alldead) {
